@@ -20,7 +20,7 @@
 }
 
 .toast.hide {
-  animation: toast-out 50s ease forwards;
+  animation: toast-out 0.3s ease forwards;
 }
 
 .toast-icon {
