@@ -1,4 +1,4 @@
-function showToast(message = "Success!", duration = 60000) {
+function showToast(message = "Success!", duration = 3000) {
 
   const container = document.getElementById("toast-container");
 
@@ -29,5 +29,5 @@ function hideToast(toast) {
 
   setTimeout(() => {
     toast.remove();
-  }, 300);
+  }, 60000);
 }
