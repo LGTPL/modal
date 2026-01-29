@@ -1,4 +1,4 @@
-function showToast(message = "Success!", duration = 3000) {
+function showToast(message = "Success!", duration = 60000) {
 
   const container = document.getElementById("toast-container");
 
