@@ -1,18 +1,18 @@
 #toast-container {
   position: fixed;
-  bottom: 24px;
-  right: 24px;
+  bottom: var(--_spacing---space--4);
+  right: var(--_spacing---space--4);
   z-index: 9999;
 }
 
 .toast {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: var(--_spacing---space--2);
   background: #ffffff;
-  border-radius: 12px;
-  padding: 14px 16px;
-  min-width: 280px;
+  border-radius: var(--_default---radius--main);
+  padding: var(--_spacing---space--3) var(--_spacing---space--3);
+  min-width: 13rem;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
   transform: translateY(20px);
   opacity: 0;
