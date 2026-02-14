@@ -1,5 +1,5 @@
 
-$(document).on('mouseenter', '.nav_links_link.image-animate', function () {
+$(document).on('mouseenter', '.nav_dropdown_component.image-animate', function () {
 
   // Remove first (in case it's already applied)
   $('.nav_dropdown_image_left').removeClass('is-left');
@@ -13,7 +13,7 @@ $(document).on('mouseenter', '.nav_links_link.image-animate', function () {
 
 });
 
-$(document).on('mouseleave', '.nav_links_link.image-animate', function () {
+$(document).on('mouseleave', '.nav_dropdown_component.image-animate', function () {
   // Optional: remove class on leaving
   $('.nav_dropdown_image_left').removeClass('is-left');
   $('.nav_dropdown_image_right').removeClass('is-right');
